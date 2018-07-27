@@ -1,0 +1,17 @@
+Goal
+
+Task: Display language statistics for user's repositories on GitHub.
+
+Create an application which should display the following information:
+
+User's e-mail address
+List of user's public repositories
+Global language statistics for all user's repositories
+
+
+Technical requirements
+
+- Backend written in Go
+- Running on kubernetes (minikube) (https://github.com/kubernetes/minikube & https://kubernetes.io/)
+- Application exposed using istio (https://istio.io) - Accessible via browser/curl with monitoring enabled. Sidecar injected into pod. Dashboards enabled for Grafana & Jaeger. Istio version 0.8.
+- Front end is not that important
